@@ -30,7 +30,7 @@ defmodule BikeBrigade.Repo.Migrations.CreateTasks do
       add :pickup_province_string, :string
       add :pickup_postal, :string
       add :pickup_country, :string
-      add :pickup_loacation, :geography
+      add :pickup_location, :geography
 
       timestamps()
     end
