@@ -1,4 +1,4 @@
-defmodule BikeBrigade.Repo.Migrations.ConstaintTags do
+defmodule BikeBrigade.Repo.Migrations.ConstraintTags do
   use Ecto.Migration
 
   def change do
