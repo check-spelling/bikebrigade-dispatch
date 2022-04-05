@@ -49,7 +49,7 @@ defmodule BikeBrigade.Repo.Migrations.CreateAnalyticsTables do
     create table(:analytics_tasks) do
       add(:rider_notes, :text)
       add(:submitted_on, :utc_datetime)
-      add(:organiation_name, :string)
+      add(:organization_name, :string)
       add(:onfleet_pickup_id, :string)
       add(:onfleet_dropoff_id, :string)
       add(:request_type, :string)

@@ -4,7 +4,7 @@ defmodule BikeBrigade.Repo.Migrations.DefaultValueForMediaUrls do
   def change do
     alter table(:sms_messages) do
       remove :media_urls
-      add :media_urls, {:array, :string}, defualt: []
+      add :media_urls, {:array, :string}, default: []
     end
   end
 end
