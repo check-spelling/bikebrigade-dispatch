@@ -1,4 +1,4 @@
-defmodule BikeBrigade.Repo.Migrations.AddMessageToTaskCollecton do
+defmodule BikeBrigade.Repo.Migrations.AddMessageToTaskCollection do
   use Ecto.Migration
 
   def change do
